@@ -468,7 +468,7 @@
     justify-content: end;
     /* background-color: red; */
     flex-direction: column;     
-    border: 2px solid gainsboro;
+/*     border: 2px solid gainsboro; */
     padding: 2px;
     width: 100%;
     height: auto;
