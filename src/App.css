@@ -561,7 +561,7 @@
   .menuIcon button{
     width: 5vh;
     background-color: #6d7c92;
-    height: 3vh;
+    height: auto;
   }
 
   .NameInLarge{
