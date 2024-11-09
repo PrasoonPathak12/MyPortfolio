@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.AdminPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    align-items: center;
+}
+.AdminPageHead{
+    display: flex;
+    width: 80%;
+    height: 10vh;
+}
+.blank{
+    width: 70%;
+    /* background-color:red ;  */
+    height: auto;
+
+}
+.greeting{
+    width: 30%;
+    /* background-color:blue ; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.greet{
+    font-family: Kalam;
+    font-size: 3vh;
+}
+.adminName{
+    color: darkcyan;
+}
+.fa-solid{
+    border: 2px solid rgb(135, 135, 135);
+    padding: 5px;
+}
+.projectPage{
+    width: 80%;
+    /* background-color: rebeccapurple; */
+    margin-bottom:5vh ;
+    margin-top: 5vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.experiencePage{
+    width: 80%;
+    margin-bottom:5vh ;
+    margin-top: 5vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rebeccapurple; */
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 1vh;
+    font-size: 2.5vh;
+}
+form textarea{
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5vh;
+
+}
+.formlabel{
+    font-size: 3vh;
+    font-family: Yatra One;
+    margin-top: 2vh;
+    color: darkcyan;
+    margin-bottom: 2vh;
+}
+
+.submitButton{
+    width: 12vh;
+    position: relative;
+    margin-top: 2vh;
+}
+
+/*  LOGIN PAGE FOR ADMIN  */
+
+.loginpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: auto;
+    padding: 5px;
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.loginHeading{
+    font-size: 3vh;
+    font-family: Kalam;
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 4vh;
+}
+.formInputsDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    /* align-items: center; */
+}
+.formInputsDiv label{
+    margin-bottom: 8px;
+    font-family: Yatra One;
+    font-size: 2.5vh;
+}
+.formInputsDiv input{
+    padding: 5px;
+    font-size: 2.2vh;
+}
+.formInputsDiv > .submitButton{
+    width: 30%;
+    position: relative;
+    padding: 4px;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    left: 35%;
+    font-family: Yatra One;
+}
+.logout{
+    height: 50%;
+    position: relative;
+    width: 5%;
+    top: 25%;
+}
+
+@media (max-width: 600px) {
+    
+}
