@@ -477,7 +477,7 @@
   .menuIcon button{
     width: 6vh;
     background-color: #6d7c92;
-    height: 4vh;
+    height: auto;
   }
 
   /* .project1Description a{
