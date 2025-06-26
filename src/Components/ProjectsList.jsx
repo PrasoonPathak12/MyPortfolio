@@ -1,8 +1,9 @@
 // import React, { forwardRef } from 'react'
 import { forwardRef } from 'react'
-import Calendarlogo from '../assets/CalendarProject.png'
+// import Calendarlogo from '../assets/CalendarProject.png'
 import QuizLogo from '../assets/QuizAppsnap.png'
 import Todosnap from '../assets/TodoSNAP.png'
+import sqlplay from '../assets/sqlplay.png'
 
 const ProjectsList = forwardRef((props, ref) => {
   return (
@@ -18,7 +19,7 @@ const ProjectsList = forwardRef((props, ref) => {
           </a>
         </div>
         <div className='project1Snapshot'>
-          <a className='projectAnchor' href={Calendarlogo} target='_blank'><img src={Calendarlogo} alt="projectSnap" className='CalendarProjectImg' /></a>
+          <a className='projectAnchor' href={sqlplay} target='_blank'><img src={sqlplay} alt="projectSnap" className='ProjectImg' /></a>
         </div>
       </div>
       <div className='project2 project'>
