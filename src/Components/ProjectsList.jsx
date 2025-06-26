@@ -2,17 +2,31 @@
 import { forwardRef } from 'react'
 import Calendarlogo from '../assets/CalendarProject.png'
 import QuizLogo from '../assets/QuizAppsnap.png'
-import Todosnap from'../assets/TodoSNAP.png'
+import Todosnap from '../assets/TodoSNAP.png'
 
-const ProjectsList=forwardRef((props,ref)=> {
+const ProjectsList = forwardRef((props, ref) => {
   return (
     <div className='projectList' ref={ref}>
+      <div className='project1 project'>
+        <div className='project1Description'>
+          <p><b>SQL PLAYGROUND...</b> SQL PLAYGROUND is a web-based SQL query runner designed for data analysts.
+            It allows users to write, execute, and visualize SQL queries with ease. Key features include query history,
+            syntax highlighting, error handling, and result visualization. It works entirely in the browser without the need for a backend,
+            enabling seamless query execution on CSV files.</p>
+          <a className='projectLink projectAnchor' href="https://dsql-nine.vercel.app">
+            ➡️➡️ Deploy Link
+          </a>
+        </div>
+        <div className='project1Snapshot'>
+          <a className='projectAnchor' href={Calendarlogo} target='_blank'><img src={Calendarlogo} alt="projectSnap" className='CalendarProjectImg' /></a>
+        </div>
+      </div>
       <div className='project2 project'>
         <div className='project2Description'>
-          <p>This is a todo-list that I made during my free time, it has simple functionalities 
-            such as delete, add todo and mark as completed.</p>
-          <a className='projectLink projectAnchor' target='_blank' href="https://todotaskmanage.netlify.app/">
-          ➡️➡️ Deployed Link
+          <p>A Website built using React serves as an interactive challenge to improve your
+            vocabulary and command over the english language.</p>
+          <a className='projectLink projectAnchor' target='_blank' href="https://github.com/PrasoonPathak12/WoRdMeM">
+            ➡️➡️ GitHub Link
           </a>
         </div>
         <div className='project2Snapshot'>
@@ -21,25 +35,15 @@ const ProjectsList=forwardRef((props,ref)=> {
           </a>
         </div>
       </div>
-      <div className='project1 project'>
-        <div className='project1Description'>
-          <p>This is a calendar app that I made using just ReactJs...</p>
-          <a className='projectLink projectAnchor' href="https://github.com/PrasoonPathak12/Calendar-implication-using-Date-Object">
-          ➡️➡️ Github Link to the project
-          </a>
-        </div>
-        <div className='project1Snapshot'>
-          <a className='projectAnchor' href={Calendarlogo} target='_blank'><img src={Calendarlogo}  alt="projectSnap" className='CalendarProjectImg'/></a>
-        </div>
-      </div>
       <div className='project2 project'>
         <div className='project2Description'>
-          <p>This is a quiz app made using ReactJS, it uses a 
-          quiz API to fetch 10 random questions and the user
-          has to answer these questions to get their score.</p>
-          <a className='projectLink projectAnchor' href="https://github.com/PrasoonPathak12/Quiz-App">
-            ➡️➡️ GitHub Link to the project
-            </a>
+          <p>Task Manager application built with React and CSS allows users to efficiently manage
+            their tasks and stay organized. The app features a simple,
+            user-friendly interface where users can add, edit, mark as complete,
+            and delete tasks.</p>
+          <a className='projectLink projectAnchor' href="https://todotaskmanage.netlify.app/">
+            ➡️➡️ Deploy Link
+          </a>
         </div>
         <div className='project2Snapshot'>
           <a href={QuizLogo} className='projectAnchor' target='_blank'><img src={QuizLogo} alt="QuizAppLogo" className='QuizAppImg' /></a>
