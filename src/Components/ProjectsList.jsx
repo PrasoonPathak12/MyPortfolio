@@ -1,7 +1,8 @@
 // import React, { forwardRef } from 'react'
 import { forwardRef } from 'react'
 // import Calendarlogo from '../assets/CalendarProject.png'
-import QuizLogo from '../assets/QuizAppsnap.png'
+// import QuizLogo from '../assets/QuizAppsnap.png'
+import wordmem from '../assets/wordmem.png'
 import Todosnap from '../assets/TodoSNAP.png'
 import sqlplay from '../assets/sqlplay.png'
 
@@ -19,26 +20,26 @@ const ProjectsList = forwardRef((props, ref) => {
           </a>
         </div>
         <div className='project1Snapshot'>
-          <a className='projectAnchor' href={sqlplay} target='_blank'><img src={sqlplay} alt="projectSnap" className='ProjectImg' /></a>
+          <a className='projectAnchor' href={sqlplay} target='_blank'><img src={sqlplay} alt="projectSnap" className='QuizAppImg' /></a>
         </div>
       </div>
       <div className='project2 project'>
         <div className='project2Description'>
-          <p>A Website built using React serves as an interactive challenge to improve your
+          <p><b>WoRdMeM...</b> A Website built using React serves as an interactive challenge to improve your
             vocabulary and command over the english language.</p>
           <a className='projectLink projectAnchor' target='_blank' href="https://github.com/PrasoonPathak12/WoRdMeM">
             ➡️➡️ GitHub Link
           </a>
         </div>
         <div className='project2Snapshot'>
-          <a href={Todosnap} className='projectAnchor' target='_blank'>
-            <img src={Todosnap} className='QuizAppImg' alt="" />
+          <a href={wordmem} className='projectAnchor' target='_blank'>
+            <img src={wordmem} className='QuizAppImg' alt="" />
           </a>
         </div>
       </div>
       <div className='project2 project'>
         <div className='project2Description'>
-          <p>Task Manager application built with React and CSS allows users to efficiently manage
+          <p><b>Task Manager...</b> Task Manager application built with React and CSS allows users to efficiently manage
             their tasks and stay organized. The app features a simple,
             user-friendly interface where users can add, edit, mark as complete,
             and delete tasks.</p>
@@ -47,7 +48,9 @@ const ProjectsList = forwardRef((props, ref) => {
           </a>
         </div>
         <div className='project2Snapshot'>
-          <a href={QuizLogo} className='projectAnchor' target='_blank'><img src={QuizLogo} alt="QuizAppLogo" className='QuizAppImg' /></a>
+          <a href={Todosnap} className='projectAnchor' target='_blank'>
+            <img src={Todosnap} alt="QuizAppLogo" className='QuizAppImg' />
+          </a>
         </div>
       </div>
       {/* 
